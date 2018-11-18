@@ -60,8 +60,8 @@ Sapling Replant:
     Acacia: true
     Dark Oak: true
 Tools:
-  Sapling Replant Require Tools: true
-  Tree Destruction Require Tools: true
+  Sapling Replant Require Tools: false
+  Tree Destruction Require Tools: false
   Tools List:
   - DIAMOND_AXE
   - WOOD_AXE
