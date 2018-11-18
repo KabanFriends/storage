@@ -40,7 +40,7 @@ Auto Plant Dropped Saplings:
   Chance (percent): 10
   Delay (seconds): 5
 Leaf Decay:
-  Fast Leaf Decay: true
+  Fast Leaf Decay: false
 Sapling Replant:
   Command Time Delay (Seconds): 30
   Bottom Block has to be Broken First: false
