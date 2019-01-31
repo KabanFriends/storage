@@ -1,0 +1,35 @@
+on command:
+	if the full command is "money":
+		cancel event
+		if balance of player = 0:
+			send "&a&l$&8 ≫ &eあなたは今所持金がありません。"
+		else if balance of player > 0:
+			set {_temp} to "%balance of player%"
+			replace every " dollar" with "ドル" in {_temp}
+			replace every " cent" with " セント" in {_temp}
+			replace every "s" with "" in {_temp}
+			send "&a&l$&8 ≫ &aあなたは今&e%{_temp}%&a所持しています。"
+		else:
+			set {_temp} to "%balance of player * -1%"
+			replace every " dollar" with "ドル" in {_temp}
+			replace every " cent" with " セント" in {_temp}
+			replace every "s" with "" in {_temp}
+			send "&a&l$&8 ≫ &cあなたは今&e%{_temp}%&cの借金があります。"
+			
+command /bal:
+	aliases: /balance, /account
+	trigger:
+		if balance of player = 0:
+			send "&a&l$&8 ≫ &eあなたは今所持金がありません。"
+		else if balance of player > 0:
+			set {_temp} to "%balance of player%"
+			replace every " dollar" with "ドル" in {_temp}
+			replace every " cent" with " セント" in {_temp}
+			replace every "s" with "" in {_temp}
+			send "&a&l$&8 ≫ &aあなたは今&e%{_temp}%&a所持しています。"
+		else:
+			set {_temp} to "%balance of player * -1%"
+			replace every " dollar" with "ドル" in {_temp}
+			replace every " cent" with " セント" in {_temp}
+			replace every "s" with "" in {_temp}
+			send "&a&l$&8 ≫ &cあなたは今&e%{_temp}%&cの借金があります。"
