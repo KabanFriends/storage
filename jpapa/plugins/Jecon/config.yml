@@ -8,14 +8,14 @@ TopCommandEntryPerPage: 10
 
 Format:
   MergeSpace: true
-  Trim: true
+  Trim: false
   Major:
     Single: "ｴﾗｰ"
     Plural: "ｴﾗｰ"
   Minor:
     Single: "ｴﾗｰ"
     Plural: "ｴﾗｰ"
-  Format: "$[%All%]":
+  Format: "$[%Major%]":
 # Format macro(Example: 123.45)
 # [%Major%]->123
 # [%Minor%]->45
