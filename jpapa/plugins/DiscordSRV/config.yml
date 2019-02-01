@@ -2,16 +2,16 @@
 ConfigVersion: 1.16.6
 
 # Bot token: 取得したトークンはここに設定してください。設定方法は、プラグインの導入手順を参照してください。
-BotToken: "NTQwODE4ODMyNDIwMzcyNDkw.DzWcbQ.Rjy0zby7yLKi4QvYwuAkvWwUSS8"
+BotToken: "NTQwOTE0MjkwOTAzODc1NTk0.DzX2IQ.-U2WJgPkkyCMOvF-jHSSKANAV7g"
 
 # ゲームからDiscordへのチャンネルリンク
 # 書き方: {"ゲーム内のチャンネル名": "DiscordのチャンネルID数値", "他のゲーム内のチャンネル名": "Discordの他のチャンネルID数値"}
 # 最初のチャンネルペアは、メインチャンネルとして使用され、ゲーム内の joins/quits/deaths/achievements/etc が送信されます。
 #
-Channels: {"global": "540812649642852352"}
+Channels: {"global": "540915415384195072"}
 
 # コンソールチャンネルの数値のID(チャンネル名ではありません)。コンソールチャンネルを全て無効にするなら、空のままにしてください。
-DiscordConsoleChannelId: "540811002304921613"
+DiscordConsoleChannelId: "540895013052088320"
 
 # デバッグオプションです。必要無いなら変更しないでください。
 #
