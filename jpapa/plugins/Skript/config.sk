@@ -62,7 +62,7 @@ update to pre-releases: true
 # your first Skript version in this server is pre-release.
 
 enable effect commands: true
-effect command token: sk!
+effect command token: !
 # If 'enable effect commands' is set to true, chat messages starting with the 'effect command token' will be interpreted as effects and executed.
 # The token can be longer than a single character, but it should not start with '/' as that starts a command.
 # A player needs the permission "skript.effectcommands" to use such commands,
