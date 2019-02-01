@@ -2,7 +2,7 @@
 ConfigVersion: 1.16.6
 
 # Bot token: 取得したトークンはここに設定してください。設定方法は、プラグインの導入手順を参照してください。
-BotToken: "NTQwODExMTE2NDIzNjc1OTIy.DzWYBw.U6dsXtx57LbeCAGjvjj7V2E1XRw"
+BotToken: "NTQwODExMTE2NDIzNjc1OTIy.DzWYjg.wl_dcK_yK3tFotYQzqIZ0V31n-k"
 
 # ゲームからDiscordへのチャンネルリンク
 # 書き方: {"ゲーム内のチャンネル名": "DiscordのチャンネルID数値", "他のゲーム内のチャンネル名": "Discordの他のチャンネルID数値"}
