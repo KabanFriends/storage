@@ -8,14 +8,14 @@ TopCommandEntryPerPage: 10
 
 Format:
   MergeSpace: true
-  Trim: false
+  Trim: true
   Major:
-    Single: "ｴﾗｰ"
-    Plural: "ｴﾗｰ"
+    Single: "dollar"
+    Plural: "dollars"
   Minor:
-    Single: "ｴﾗｰ"
-    Plural: "ｴﾗｰ"
-  Format: "$[%Major%]":
+    Single: "cent"
+    Plural: "cents"
+  Format: "[%Major%] [%MajorCurrency%] [%Minor%] [%MinorCurrency%]":
 # Format macro(Example: 123.45)
 # [%Major%]->123
 # [%Minor%]->45
