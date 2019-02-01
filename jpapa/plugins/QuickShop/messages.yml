@@ -101,7 +101,7 @@ command:
        create: "&e見ているチェストをショップにします"
        
 signs:
-    header: "&b&l{0}"
+    header: "&b{0}"
     selling: "在庫{0}個 - 販売中"
     buying: "在庫{0}個 - 買取中"
     item: "{0}"
