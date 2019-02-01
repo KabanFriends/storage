@@ -11,7 +11,7 @@ BotToken: "NTQwOTE0MjkwOTAzODc1NTk0.DzX3HQ.TzCI60UeR1CigG_kf9PoqbFZyvc"
 Channels: {"global": "540915415384195072"}
 
 # コンソールチャンネルの数値のID(チャンネル名ではありません)。コンソールチャンネルを全て無効にするなら、空のままにしてください。
-DiscordConsoleChannelId: "540895013052088320"
+DiscordConsoleChannelId: "540940400379297795"
 
 # デバッグオプションです。必要無いなら変更しないでください。
 #
