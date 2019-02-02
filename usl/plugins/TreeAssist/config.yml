@@ -27,20 +27,20 @@ Automatic Tree Destruction:
   Initial Delay (seconds): 10
   Delay (ticks): 0
   Tree Types:
-    Birch: false
-    Jungle: false
-    Oak: false
-    Spruce: false
-    Brown Shroom: false
-    Red Shroom: false
-    Acacia: false
-    Dark Oak: false
+    Birch: true
+    Jungle: true
+    Oak: true
+    Spruce: true
+    Brown Shroom: true
+    Red Shroom: true
+    Acacia: true
+    Dark Oak: true
   Cooldown (seconds): 0
 Auto Plant Dropped Saplings:
   Chance (percent): 10
   Delay (seconds): 5
 Leaf Decay:
-  Fast Leaf Decay: false
+  Fast Leaf Decay: true
 Sapling Replant:
   Command Time Delay (Seconds): 30
   Bottom Block has to be Broken First: false
