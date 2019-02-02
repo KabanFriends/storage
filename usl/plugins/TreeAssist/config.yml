@@ -22,8 +22,8 @@ Automatic Tree Destruction:
   Animated: false
   When Sneaking: true
   When Not Sneaking: true
-  Forced Removal: false
-  Remove Leaves: false
+  Forced Removal: true
+  Remove Leaves: true
   Initial Delay (seconds): 10
   Delay (ticks): 0
   Tree Types:
@@ -61,7 +61,7 @@ Sapling Replant:
     Dark Oak: true
 Tools:
   Sapling Replant Require Tools: false
-  Tree Destruction Require Tools: false
+  Tree Destruction Require Tools: true
   Tools List:
   - DIAMOND_AXE
   - WOOD_AXE
