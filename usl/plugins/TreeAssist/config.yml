@@ -9,11 +9,11 @@ Main:
   Force Grow Default Radius: 10
   Force Break Max Radius: 30
   Force Grow Max Radius: 30
-  Ignore User Placed Blocks: false
+  Ignore User Placed Blocks: true
   Initial Delay: false
   Language: en
   Sapling Replant: true
-  Toggle Default: false
+  Toggle Default: true
   Use mcMMO if Available: true
   Use JobsReborn if Available: true
   Use Permissions: false
