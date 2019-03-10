@@ -1,0 +1,55 @@
+#General Messages
+
+general.nametag.prefix = "&8[&6EpicFurnaces&8]"
+general.nametag.next = "&9次へ"
+general.nametag.back = "&9前へ"
+general.nametag.nameformat = "&rかまど &e(レベル%level%)"
+general.hologram.outoffuel = "&c燃料切れ"
+general.hologram.stats = "&a%in%&7/&c%out%";
+
+#Interface Messages
+
+interface.furnace.upgradewithxp = "&a経験値でレベルアップ"
+interface.furnace.upgradewithxplore = "&7費用: &a%cost% レベル"
+interface.furnace.upgradewitheconomy = "&aお金でレベルアップ"
+interface.furnace.upgradewitheconomylore = "&7費用: &a$%cost%"
+interface.furnace.currentlevel = "&6レベル &7%level%&6 のかまど"
+interface.furnace.level = "&6レベル &7%level%&6 の情報"
+interface.furnace.performance = "&7燃焼効率: &6%amount%"
+interface.furnace.reward = "&7報酬増加率: &6%amount%"
+interface.furnace.performancetitle = "&a&l燃焼効率"
+interface.furnace.rewardtitle = "&c&l報酬増加率"
+interface.furnace.fueldurationtitle = "&7&l燃料消費時間"
+interface.furnace.fuelduration = "&7F燃料消費時間: &6%amount%"
+interface.furnace.fuelshare = "&7燃料共有数: &6%amount%&7."
+interface.furnace.fuelsharetitle = "&6&l燃料共有"
+interface.furnace.fuelshareinfo = "&7このかまどは&6%amount%&7ブロックの|&7範囲内にあるかまどと燃料を共有します。"
+interface.furnace.overheat = "&7過熱: &6%amount%&7."
+interface.furnace.overheattitle = "&6&l過熱"
+interface.furnace.overheatinfo = "&7このかまどは&6%amount%&7ブロックの|&7範囲内にある雪や氷をとかします。"
+interface.furnace.performanceinfo = "&7このかまどは&6%amount%%|&7燃焼速度を加速しています。 | |&7燃焼効率が上がると、中のものを||速く焼くことができます。"
+interface.furnace.rewardinfo = "&7このかまどは&6%amount%%の確率で|&71つの原料から複数のものを|&7焼くことができます。"
+interface.furnace.fueldurationinfo = "&7このかまどの燃料消費時間は|&6%amount%%&7長くなっています。 | |&7燃料消費時間が増えると、1つの|&7燃料が燃え尽きる時間が長くなります。"
+interface.furnace.smeltedx = "&6%amount%個&7のアイテムを精錬済み"
+interface.furnace.tolevel = "&6%type% %amount%&7個分の経験値で次のレベル"
+interface.furnace.remotefurnace = "&5&l遠隔操作"
+interface.furnace.remotefurnacelore = "&7左クリックでかまどの名前を決めます。|&7右クリックでこのかまどの|&7遠隔操作ができるようにします。|&7現在のかまどの名前: &6%nickname%"
+interface.furnace.utilize = "|&7かまどに遠隔操作するには以下の|&7コマンドを使用してください:|&6/ef remote %nickname%"
+interface.furnace.remotelist = "&7遠隔操作ができるプレイヤー:"
+interface.furnace.alreadymaxed = "&7このかまどは最大レベルになっています。"
+interface.button.boostedstats = "&a&l現在ブースト中です！|&7精錬報酬: &6%amount%倍&7|&6%time%&7秒後にブーストが終了します。"
+
+#Command Messages
+
+command.give.success = "&6レベル %level% &7のかまどを付与しました。"
+
+#Event Messages
+
+event.general.nopermission = "&cこの操作を行う権限がありません。"
+event.upgrade.cannotafford = "&cレベルアップするための条件に達していません。"
+event.upgrade.success = "&7かまどを&6レベル %level%&7に昇格させました！"
+event.upgrade.maxed = "&7かまどが最大レベルの &6レベル %level%&7に到達しました。"
+event.remote.enter = "&7かまどの名前をチャット欄に記入し、Enterキーを押してください。"
+event.remote.notfound = "&cその名前のかまどはありません。"
+event.remote.nicknamesuccess = "&aかまどの名前を決めました。"
+event.remote.nicknameinuse = "&cその名前は既に使われています。"
