@@ -1,0 +1,91 @@
+# 
+# requires redstone power to get exports from tanks
+# eg. putting out fire, removing effects etc
+item-name: '&bLiquid Tank'
+amount-per-chunk: 16
+enable-permission: false
+water-amount: 30
+lava-amount: 30
+milk-amount: 30
+mushroomStew-amount: 10
+rabbitStew-amount: 10
+dragonBreath-amount: 30
+beetroot-amount: 10
+need-redstone-for-export: true
+water-fountains-enabled: true
+Main:
+  Upgrade With Economy: true
+  Upgrade With XP: true
+  Upgrade Particle Type: SPELL_WITCH
+  Sounds Enabled: true
+  Farm Tick Speed: 70
+  Entity Tick Speed: 100
+  Growth Tick Speed: 20
+  Farm Block Material: END_ROD
+  Allow Non Command Issued Farm Items: false
+  Auto Breeding Cap: 15
+  Animate: true
+  Disable Auto Til Land: false
+Database:
+  Activate Mysql Support: false
+  IP: 127.0.0.1
+  Port: 3306
+  Username: root
+  Password: password
+  Database Name: EpicFarming
+  Prefix: EFA-
+Interfaces:
+  Economy Icon: EXP_BOTTLE
+  XP Icon: DOUBLE_PLANT
+  Glass Type 1: 7
+  Glass Type 2: 11
+  Glass Type 3: 3
+System:
+  Download Needed Data Files: true
+  Language Mode: ja_JP
+  Debugger Enabled: false
+settings:
+  levels:
+    Level-1:
+      Radius: 1
+      Speed-Multiplier: 1
+      Cost-xp: 20
+      Cost-eco: 5000
+    Level-2:
+      Radius: 2
+      Speed-Multiplier: 1.5
+      Auto-Harvest: true
+      Cost-xp: 20
+      Cost-eco: 5000
+    Level-3:
+      Radius: 3
+      Speed-Multiplier: 1.5
+      Auto-Harvest: true
+      Auto-Replant: true
+      Auto-Breeding: true
+      Cost-xp: 25
+      Cost-eco: 7500
+    Level-4:
+      Radius: 3
+      Speed-Multiplier: 2
+      Auto-Harvest: true
+      Auto-Replant: true
+      Auto-Breeding: true
+      Cost-xp: 30
+      Cost-eco: 10000
+    Level-5:
+      Radius: 3
+      Speed-Multiplier: 2.5
+      Auto-Harvest: true
+      Auto-Replant: true
+      Auto-Breeding: true
+      Cost-xp: 35
+      Cost-eco: 12000
+    Level-6:
+      Radius: 4
+      Speed-Multiplier: 3
+      Auto-Harvest: true
+      Auto-Replant: true
+      Auto-Breeding: true
+      Cost-xp: 40
+      Cost-eco: 25000
