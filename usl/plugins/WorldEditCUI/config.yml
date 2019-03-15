@@ -21,7 +21,7 @@ advanced-grid:
   # If enabled, the selection will not only be displayed by the outline,
   # but also with a grid between the outlines (the bigger the selection, the bigger the grid).
   # Requires more or less 2 to 3 times the amount of calculations, but looks amazing!
-  enabled: true
+  enabled: false
   # How many particles should be displayed for every block of length.
   # The recommended amount is between 2 and 3. Can be set from 2 to 5.
   particles-per-block: 2
