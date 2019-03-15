@@ -1,0 +1,30 @@
+#General Messages
+
+general.nametag.prefix = "&8[&6UltimateRepairing&8]"
+general.hologram.click = "アイテムを持って左クリック"
+general.hologram.swapclick = "アイテムを持って右クリック"
+general.hologram.oneclick = "アイテムを持ってクリック"
+general.hologram.torepair = "で&6耐久値修復&r!"
+
+#Interface Messages
+
+interface.repair.title = "&9どのように修復しますか？"
+interface.yesno.title = "&9&5&l%cost%&9で修復しますか？"
+interface.yesno.yes = "&a&lはい"
+interface.yesno.no = "&c&lいいえ"
+interface.repair.xp = "&9経験値"
+interface.repair.xplore = "&7クリックで経験値を消費して修復"
+interface.repair.eco = "&9お金"
+interface.repair.ecolore = "&7クリックでお金を消費して修復"
+interface.repair.item = "&9%ITEM%"
+interface.repair.itemlore = "&7クリックで%item%を使って修復"
+
+#Event Messages
+
+event.repair.timeout = "&c時間が経ったので、修復がキャンセルされました。"
+event.repair.notdamaged = "&aこのアイテムは壊れていません。"
+event.repair.needspace = "&c金床の上に隙間を作ってください！"
+event.repair.cantrepair = "&cこれは修復できません！"
+event.repair.notenough = "&cアイテムを修復するのに必要な %type% &cがありません！"
+event.repair.success = "&aアイテムが修復されました！"
+event.repair.cancelled = "&c修復をキャンセルしました。"
