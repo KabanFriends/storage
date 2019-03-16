@@ -1,4 +1,5 @@
 # storage
 My storage git for various things
 
-I know how to write README but im lazy so i dont do it yet
+The purpose of this git is NOT to reupload existing files on the Internet.
+I need to get some direct links of those files. And using github is the easiest way to do it.
